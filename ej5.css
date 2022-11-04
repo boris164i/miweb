@@ -1,0 +1,96 @@
+
+html,body{
+    height: 100%;
+}
+
+#cuerpoApp{
+    background-color: black;
+}
+
+.bar01{
+    height: 5%;
+}
+
+.bar02{
+    height: 10%;
+}
+.bar03{
+    height: 60%;
+}
+.bar04{
+    height: 20%;
+}
+
+.botonOpciones{
+color:#5DC1B9;   
+font-size: 15px;
+font-weight: bold;
+background-color: transparent;
+border: transparent;
+}
+
+.botonCamara{
+color: white;
+font-size: 20px;
+font-weight: bold;
+background-color: transparent;
+border: transparent;
+border-left: solid 5px #5DC1B9;
+}
+
+.textoIndicador{
+   font-size: 75%;
+   color: white;
+
+}
+.textoMedidor{
+    font-size: 200%;
+    font-weight: bold;
+    color: white;
+}
+
+.botonAccion{
+    font-size:  15px;
+    font-weight: bold;
+    background-color: #5DC1B9;
+    color: black;
+    border: transparent;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.botonAccion:hover{
+    background-color: black;
+    color: #5DC1B9;
+    border: transparent;
+    border: solid 2px #5DC1B9;
+    border-radius: 5px;
+}
+
+.iconoMedidor{
+    color:#5DC1B9;
+}
+
+.botonIdioma{
+    font-size:  20px;
+    font-weight: bold;
+    color:#5DC1B9;
+    background-color: transparent;
+    border:transparent;
+
+}
+
+.camaraSeccion{
+    border-radius: 8px;
+    border: solid 2px rgba(255,255,255,0.6);
+    background: linear-gradient(225deg,black 80%, rgba(255, 255, 255, 0.397) 100%);
+}
+
+.botonIdioma:hover{
+    background-color: grey;
+    border-radius: 5px ;
+}
+
+.botonIdioma:active{
+    color:white;
+}
